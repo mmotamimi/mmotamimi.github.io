@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Mohammad M. Tamimi</title>
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li>
+                    <div class="contact">
+                        <br><br>
+                        <p style="font-size: 2em">Mohammad Tamimi</p>
+                        <p style="color: white">JS, PHP, JQuery, D3.js, Vis.js, MySQL</p>
+                        mmotamimi@gmail.com<br>
+                        (+970) 599 094 173<br>
+                        <a href="#"><img class="linkedin" src='linked-in2.png'></a>
+                    </p>
+                    </div>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+            <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Contact Info.</a>
+                <div class="row">
+                    <div class="jumbotron">
+                        
+                        <h1 id = "title"> Data Visualization for PPU Regestration web site </h1>
+                        <p>Graduation Project 2014/2015</p>
+                    </div>
+
+                    <div class="img-responsive">
+                        <img src="plan.png">
+                        <p> draw the acadimec plan by drawing the courses each pointing to the next course, this give easy way to decide what to regester most of the semesters and a clear path for the student. </p>
+                    </div>
+
+                    <div class="img-responsive">
+                        <img src="status.png">
+                        <p> <b>student's academic status:</b> this is the same as the academic plan but with the status of the studnt for each course with coloring for each type (pass, fail and not registered) </p>
+                    </div>
+
+                    <div class="img-responsive">
+                        <img src="table.png">
+                        <div class="caption">
+                            <p> drawing the weekschedule at the offical work/study for any object (student, teacher, room, etc) hours by marking the busy times every by a unique color. </p>
+                        </div>
+                    </div>
+
+                    <div class="img-responsive">
+                        <img src="compare.png">
+                        <p> comparing the week schedule of many objects by giving each object a color and overlaping or list each day for all compared objects </p>
+                    </div>
+
+                    <div class="img-responsive">
+                        <img src="reg.png">
+                        <p> <b>client side registration:</b> this give the ability to select and see the result immedialty without going back to the server, this reduce the traffic on the server. in addition to day and  <p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+       
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
